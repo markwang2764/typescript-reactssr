@@ -1,0 +1,37 @@
+{
+  "name": "reactssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w -p tsconfig.json",
+    "dev": "node ./dist/server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-compress": "^2.0.0",
+    "koa-favicon": "^2.0.0",
+    "koa-router": "^7.3.0",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.43",
+    "@types/koa-compress": "^2.0.8",
+    "@types/lodash": "^4.14.95",
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "@types/webpack": "^3.8.3",
+    "@types/webpack-dev-middleware": "^2.0.0",
+    "awesome-typescript-loader": "^3.4.1",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.4.0",
+    "typescript": "^2.6.2",
+    "webpack-dev-middleware": "^2.0.4"
+  }
+}
